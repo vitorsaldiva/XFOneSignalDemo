@@ -25,7 +25,7 @@ namespace XFOneSignalDemo
                 {
                     try
                     {
-                        DependencyService.Get<IOpenAppService>().Launch("br.com.zar");
+                        DependencyService.Get<IOpenAppService>().Launch("app-uri");
                     }
                     catch (Exception ex)
                     {
